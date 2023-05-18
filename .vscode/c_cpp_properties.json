@@ -1,0 +1,26 @@
+{
+    "configurations": [
+        {
+            "browse": {
+                "databaseFilename": "${default}",
+                "limitSymbolsToIncludedHeaders": false
+            },
+            "includePath": [
+                "/home/mrsatoukazuma/sdrn_ws/install/px4_ros_com/include/**",
+                "/home/mrsatoukazuma/sdrn_ws/install/px4_msgs/include/**",
+                "/opt/ros/humble/include/**",
+                "/home/mrsatoukazuma/sdrn_ws/src/px4_ros_com/include/**",
+                "/home/mrsatoukazuma/sdrn_ws/src/surveillance_drone_unit/include/**",
+                "include/**",
+                "/usr/include/**",
+                "/home/mrsatoukazuma/sdrn_ws/install/px4_msgs/include/px4_msgs"
+            ],
+            "name": "ROS",
+            "intelliSenseMode": "gcc-x64",
+            "compilerPath": "/usr/bin/gcc",
+            "cStandard": "gnu11",
+            "cppStandard": "c++14"
+        }
+    ],
+    "version": 4
+}
