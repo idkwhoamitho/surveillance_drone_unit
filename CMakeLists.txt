@@ -27,6 +27,9 @@ find_package(sensor_msgs REQUIRED)
 add_executable(Start_FligtControl src/MainFlightControl.cpp )
 ament_target_dependencies(Start_FligtControl rclcpp px4_msgs)
 
+add_executable(Start_NavFligtControl src/NavFlightControl.cpp )
+ament_target_dependencies(Start_NavFligtControl rclcpp px4_msgs)
+
 if(BUILD_TESTING)
   find_package(ament_lint_auto REQUIRED)
   set(ament_cmake_copyright_FOUND TRUE)
@@ -36,6 +39,7 @@ endif()
 
 install(TARGETS
   Start_FligtControl 
+  Start_NavFligtControl
   DESTINATION lib/${PROJECT_NAME}
 )
 
